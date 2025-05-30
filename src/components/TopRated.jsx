@@ -39,7 +39,7 @@ const topRated = [
 const TopRated = () => {
   return (
     <div className="px-4 py-3">
-      <h2 className="font-semibold text-sm mb-3">TOP RATED NEAR YOU</h2>
+      <h2 className="font-semibold text-sm mb-3 text-red-500">TOP RATED NEAR YOU</h2>
       <div className="flex overflow-x-auto scrollbar-hide">
         {topRated.map((item, idx) => (
           <div
@@ -74,7 +74,7 @@ const TopRated = () => {
               {/* Bottom-left price */}
               <div className="absolute bottom-1 left-1 text-white text-[12px] px-1.5 py-[1px] rounded-sm font-semibold z-20">
                 ITEMS <br />
-                <span className="font-bold text-2xl">{item.price}</span>
+                <span className="font-bold text-2xl text-white">{item.price}</span>
               </div>
 
               {/* Bottom-right AD */}
@@ -84,7 +84,7 @@ const TopRated = () => {
             </div>
 
             <div className="p-2">
-              <h3 className="text-sm font-semibold truncate">{item.name}</h3>
+              <h3 className="text-sm font-semibold truncate text-gray-800">{item.name}</h3>
               <p className="text-xs text-green-700">{item.rating}</p>
               <p className="text-xs text-gray-600 truncate">{item.items}</p>
             </div>

@@ -8,7 +8,7 @@ const SearchBar = () => {
         <input
           type="text"
           placeholder="Search for Something Special'"
-          className="bg-transparent outline-none w-full text-sm"
+          className="bg-transparent outline-none w-full text-sm text-gray-800"
         />
         <FiMic className="text-orange-500" />
       </div>

@@ -28,7 +28,7 @@ const welcomeOffers = [
 const WelcomeOffer = () => {
   return (
     <div className="px-4 py-3">
-      <h2 className="font-bold text-sm">👇🏼 ENJOY YOUR WELCOME OFFER!</h2>
+      <h2 className="font-bold text-sm text-gray-700">👇🏼 ENJOY YOUR WELCOME OFFER!</h2>
       <p className="font-semibold text-xs text-gray-500 ml-6 mb-2">
         Get flat ₹125 off on your next order
       </p>
@@ -72,7 +72,7 @@ const WelcomeOffer = () => {
 
             {/* Restaurant Info */}
             <div className="p-2">
-              <h3 className="text-sm font-semibold">{item.name}</h3>
+              <h3 className="text-sm font-semibold text-black">{item.name}</h3>
               <p className="text-xs text-gray-800">
                 ⭐ {item.rating} • {item.time}
               </p>

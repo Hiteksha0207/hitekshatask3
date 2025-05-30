@@ -24,7 +24,7 @@ const Categories = () => {
 
   return (
     <div className="px-4 py-3">
-      <h2 className="font-semibold text-sm mb-3">HELLO , WHAT’S ON YOUR MIND?</h2>
+      <h2 className="font-semibold text-sm mb-3 text-gray-800">HELLO , WHAT’S ON YOUR MIND?</h2>
       <div className="flex overflow-x-auto space-x-4 scrollbar-hide">
         {chunked.map((group, gIdx) => (
           <div key={gIdx} className="flex-none grid grid-cols-4 grid-rows-2 w-[calc(3*5.4rem)]">
@@ -37,7 +37,7 @@ const Categories = () => {
                     className="w-full h-full object-cover"
                   />
                 </div>
-                <p className="text-center leading-tight text-[12px]">{cat.name}</p>
+                <p className="text-center leading-tight text-[12px] text-gray-600">{cat.name}</p>
               </div>
             ))}
           </div>

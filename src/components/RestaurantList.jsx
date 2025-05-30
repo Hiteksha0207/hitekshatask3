@@ -118,7 +118,7 @@ const RestaurantList = () => {
                 <span className="text-red-500 text-[10px] font-bold">
                   {item.delivery}
                 </span>
-                <span className="text-pink-600 text-[10px] font-bold px-1.5 py-[1px] rounded">
+                <span className="text-pink-600 text-[10px] font-bold px-1.5 py-[2px] rounded">
                   one LITE
                 </span>
               </div>
